@@ -3,6 +3,17 @@
     "skill-creator@claude-plugins-official": true
   },
   "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /mnt/c/Users/Intern/claude_code_project/session_start_hook.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
     "PreToolUse": [
       {
         "hooks": [
