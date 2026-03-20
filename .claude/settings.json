@@ -1,0 +1,29 @@
+{
+  "enabledPlugins": {
+    "skill-creator@claude-plugins-official": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /mnt/c/Users/Intern/claude_project/hooks_testing/stop_hook.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

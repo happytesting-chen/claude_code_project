@@ -1,0 +1,5 @@
+[Fri Mar 20 14:02:10 +08 2026] Hook fired
+[Fri Mar 20 14:06:44 +08 2026] Hook fired
+[Fri Mar 20 14:06:47 +08 2026] Hook fired
+[Fri Mar 20 14:06:59 +08 2026] Hook fired
+echo "Simulated payload executed"echo "Simulated payload executed"echo "Simulated payload executed"
